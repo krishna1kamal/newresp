@@ -1,0 +1,73 @@
+#ye{
+	margin-top:0px;
+	
+	padding-top:15px;
+    border: 2px solid red;
+    background-image:url("windows_vista_vaio-HD.jpg");
+   height:70px;
+   width:98.5%;
+   z-index:4567;
+}
+
+
+
+#re{
+	
+    background-color:#ff99ff;
+
+	
+}
+
+#one{
+	text-align:right;
+	colour:white;
+}
+#two{
+	text-align:center;
+	font-size:2em;
+	letter-spacing:5px;
+	word-spacing:25px;
+}
+.button {
+    background-color: green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 16px;
+	border-radius: 12px;
+    
+}
+
+#image{
+	position:relative;
+	top:90px;
+	height:250px;
+	width:100%;
+	
+}
+
+fieldset {
+width: 350px;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 20px;
+text-align: center;}
+
+
+legend {
+background-color: #efefef;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 10px 20px;
+text-transform: uppercase;}
+
+
+input{
+		border-radius: 12px;
+        margin-left:25px;
+		color:white;
+		background-color:black;
+}
+
+
+

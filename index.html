@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 
+
+</title>
+<link rel="stylesheet" href="styles.css">
+
+
+
+
+<style>
+li>a{
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+text-decoration: none;
+color: white;
+font-family: cursive;
+font-size: 30px;
+}
+
+li>a:hover{
+background: skyblue;
+color:black;
+}
+
+
+#nav, #feature, #footer {
+clear:both;
+background-color: pink;
+padding: 10px;
+margin: 10px;}
+
+
+.column1, .column2, .column3 {
+
+box-shadow: 10px 10px 5px grey;
+background-color: yellow;
+width: 250px;
+float: left;
+padding:20px;
+margin: 15px;}
+
+
+li {
+display: inline;
+padding: 5px;}
+
+h1 {
+    color: green;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 70px;
+   color:white;
+    padding: 12px 16px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div id="ye" style="float:inherit">
+<nav id="one">
+  <a href="#">Log in</a> |
+  <a href=""><button class="button">Enroll</button>
+</a> |
+  <a href="sinup.html">Sign up</a>
+  </nav>
+</div>
+
+
+<div  style="clear:both float:inherit">
+
+<img  id="image" src="https://d26a57ydsghvgx.cloudfront.net/content/customers/Coursera/Coursera_mobile%20app.jpg " />
+</div><br>
+
+
+<div style="clear:both">
+<nav id="two" >
+<a href="#">Home</a>
+<a href="#">Course</a>
+<a href="#">Questions</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="header"><br>
+<h1>Programing</h1>
+<div id="nav">
+<ul >
+<li><a href="">Home</a></li>
+<li><a href="">
+<div class="dropdown">
+  <span>Course</span>
+  <div class="dropdown-content">
+    <p>C</p>
+     <p>C++</p>
+      <p>Java</p>
+  </div>
+</div>
+</a></li>
+<li><a href="">Services</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="feature">
+<p>Computer programming (often shortened to programming) is a process that leads from an original formulation of a computing problem
+ to executable computer programs. Programming involves activities such as analysis, developing understanding, generating algorithms,
+ verification of requirements of algorithms including their correctness and resources consumption, and implementation (commonly referred
+ to as coding[1][2]) of algorithms in a target programming language. Source code is written in one or more programming languages.
+ The purpose of programming is to find a sequence of instructions that will automate performing a specific task or solving a given problem.
+ The process of programming thus often requires expertise in many different subjects, including knowledge of the application domain,
+ specialized algorithms, and formal logic.
+
+Related tasks include testing, debugging, and maintaining the source code, implementation of the build system, and management of derived
+ artifacts such as machine code of computer programs. These might be considered part of the programming process, but often the term software
+ development is used for this larger process with the term programming, implementation, or coding reserved for the actual writing of source code. 
+ Software engineering combines engineering techniques with software development practices.</p>
+</div>
+<div class="column1">
+<h1>C</h1>
+<p>C Language Introduction
+C Programming Language Standard<br>
+Is it fine to write “void main()” or “main()” in C/C++?
+Difference between “int main()” and “int main(void)” in C/C++?
+Macros and Preprocessors in C
+Compiling a C program:- Behind the Scenes</p>
+</div>
+<div class="column2">
+<h1>C++</h1>
+<p>C program that won’t compile in C++
+Name Mangling and extern “C” in C++
+void * in C vs C++
+Program that produces different results
+in C and C++
+Type difference of character literals in C vs C++</p>
+</div>
+<div class="column3">
+<h1>Java</h1>
+<p>Java Identifiers
+Data types
+How to define our own data type in java(enum)
+Variables
+Scope of Variables
+Loops in Java(Practice)
+Decision Making(if, if-else, switch, break, continue, jump)(Practice)
+Switch Statement in Java
+String in Switch Case in Java
+Forward declarations
+Widening Primitive Conversion 
+Type conversion in Java
+Comments in Java
+Does Java support goto?
+Interesting facts about null in Java
+Using underscore in Numeric Literals</p>
+</div>
+</div>
+<div id="footer">
+<p>&copy; Copyright 2011</p>
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
